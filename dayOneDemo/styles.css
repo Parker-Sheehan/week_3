@@ -1,0 +1,33 @@
+*{
+    color: rgb(20, 184, 157);
+}
+
+h1 {
+    color: #FFFFFF;
+    background-color: blue;
+    text-align: center;
+}
+
+p{
+    color: peru;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+div{
+    background-color: aliceblue;
+    padding: 50px;
+    border: 4px dashed red;
+    margin: 30px;
+
+}
+
+div > h4{
+    margin: 10px;
+    border: 4px bisque;
+}
+img {
+    height: 300px;
+}
+

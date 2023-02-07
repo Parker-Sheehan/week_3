@@ -7,6 +7,7 @@ for (let i = 0; i < arr.length; i++){
         x++
     }
 }
-
 return (x > (arr.length/2))
 }
+
+console.log(hasMoreVowels("LemonCake"))
