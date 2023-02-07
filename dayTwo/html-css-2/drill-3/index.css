@@ -1,0 +1,38 @@
+header{
+    height: 100px;
+    padding: 20px;
+    background-color: grey;
+}
+div{
+    background-color: lightblue;
+    height: 100px;
+    width: 100px;
+}
+main{
+    padding: 40px;
+}
+section{
+    height: 150px;
+}
+#blue {
+    background-color: blue;
+}
+#green {
+    background-color: green;
+}
+#lime {
+    background-color: lime;
+}
+#yellow {
+    background-color: yellow;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
