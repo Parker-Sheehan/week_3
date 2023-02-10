@@ -1,0 +1,72 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+#introductionspan{
+	display: flex;
+	
+}
+
+.aboutMe{
+	margin-right: 5px;
+	margin-left: 0px;
+	color: peru;
+	padding-left: 4px;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+
+#buttonDiv{
+	display: flex;
+	justify-content: space-between;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px white;
+	background-color: rgb(255, 220, 47);
+    margin-top: 1.5vh;
+    width: 8.3vw;
+    height: 5vh;
+    font-size: .75rem;
+}

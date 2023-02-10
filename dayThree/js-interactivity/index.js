@@ -37,6 +37,7 @@ const addMovie = evt =>{
     deletBtn.textContent = "X"
     deletBtn.addEventListener('click', (evt) => {
         evt.target.parentNode.remove()
+        message.textContent = "Removed thing"
     })
     movieTitle.textContent = inputField
     movie.appendChild(movieTitle)
@@ -44,11 +45,12 @@ const addMovie = evt =>{
 
     document.querySelector("ul").appendChild(movie)
     movieTitle.addEventListener("click", () => {
-    movie.classList.toggle("checked")
+        movie.classList.toggle("checked")
+        message.textContent = "Greyed thing"
     })
 
     document.querySelector("input").value = ""
-
+    message.textContent = "Added thing"
 }
 
 document.querySelector("button").addEventListener("click", addMovie)
