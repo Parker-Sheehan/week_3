@@ -70,3 +70,9 @@ img {
     height: 5vh;
     font-size: .75rem;
 }
+
+#neighborhoodSpan{
+	display: flex;
+	justify-content: space-around;
+}
+
